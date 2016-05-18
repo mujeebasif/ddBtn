@@ -7,7 +7,7 @@ bootstrap button with dropdown having options with checkboxes
 example usage
 
 include
-jquery.ddBtn.css
+jquery.ddBtn.css &
 jquery.ddBtn.js
 
 ```
@@ -30,7 +30,10 @@ $('.btn_row').ddBtn({
 });
 ```
 
-//to fetch selectedOptions, any time; $('.btn_row').ddBtn.selectedOptions
+to fetch selectedOptions, any time; 
+```
+$('.btn_row').ddBtn.selectedOptions
+```
 
 following options can be passed while initialization.
 ```
