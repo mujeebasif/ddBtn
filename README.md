@@ -1,5 +1,5 @@
 # ddBtn
-bootstrap button with dropdown having options with checkboxes
+bootstrap button with dropdown/menue having options with checkboxes
 
 customised version of [Button dropdowns](http://getbootstrap.com/components/#btn-dropdowns)
 
