@@ -10,7 +10,7 @@ include
 jquery.ddBtn.css
 jquery.ddBtn.js
 
-
+```
 $('.btn_row').ddBtn({
    "ddOptions":[
       {
@@ -28,11 +28,12 @@ $('.btn_row').ddBtn({
    //"onBtnClick":function (btn,selection){console.log(btn,selection);},
    "onBtnClick":exportInXls
 });
-
+```
 
 //to fetch selectedOptions, any time; $('.btn_row').ddBtn.selectedOptions
 
 following options can be passed while initialization.
+```
 var options = {
          "wrapperClass" : "",
          "ddBtnMarkup":{
@@ -62,3 +63,4 @@ var options = {
          "onOptionSelect": function(){},
          "onBtnClick" : function(){}
       }
+```	  
